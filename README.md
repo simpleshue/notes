@@ -1,1 +1,1 @@
-1st
+https://simpleshue.github.io/notes/
