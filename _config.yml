@@ -193,7 +193,7 @@ analytics:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 paginate: 8
 paginate_path: /page:num/
 # pagination:
