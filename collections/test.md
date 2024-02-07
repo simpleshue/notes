@@ -2,7 +2,7 @@
 layout: page
 title: test collection
 excerpt: "something here"    
-permalink: test-collection
+permalink: /collections/test-collection/
 ---
 
 test collection
