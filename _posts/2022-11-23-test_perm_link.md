@@ -3,7 +3,7 @@ layout: post
 entries_layout: grid
 title: test with perm link
 excerpt: "something here"    
-permalink: test-perm-link
+permalink: /test-perm-link/
 categories:
 - test1
 ---
