@@ -215,14 +215,6 @@ analytics:
 # timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# # mimic GitHub Pages with --safe
-# whitelist:
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jekyll-include-cache
-
 
 # # Archives
 # #  Type
@@ -253,31 +245,30 @@ analytics:
 # #     tag: /tags/:name/
 
 
-# # HTML Compression
-# # - https://jch.penibelst.de/
-# compress_html:
-#   clippings: all
-#   ignore:
-#     envs: development
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 
-# # Defaults
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: false
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
-# collections:
-#   Portfolio:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  posts_no_date:
+    output: true
+    permalink: /:collection/:path/
 
 # github: [metadata]
