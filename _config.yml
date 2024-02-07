@@ -252,10 +252,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
-      read_time: true
+      entries_layout: grid
       comments: true
-      share: true
       related: true
 
 collections:
