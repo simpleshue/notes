@@ -30,7 +30,7 @@ name                     : "Subtitle here"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-# repository               : luxuwin/blog.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : simpleshue/notes
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -58,14 +58,10 @@ kramdown:
 #   staticman:
 #     branch               : # "master"
 #     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/luxuwin/blog.giyhub.io"
-# reCaptcha:
-#   siteKey                :
-#   secret                 :
-# atom_feed:
-#   path                   : # blank (default) uses feed.xml
-# search                   : true # true, false (default)
-# search_full_content      : true # true, false (default)
-# search_provider          : lunr # lunr (default), algolia, google
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 # algolia:
 #   application_id         : # YOUR_APPLICATION_ID
 #   index_name             : # YOUR_INDEX_NAME
@@ -80,40 +76,25 @@ kramdown:
 # yandex_site_verification :
 # naver_site_verification  :
 
-# # Social Sharing
-# twitter:
-#   username               :
-# facebook:
-#   username               :
-#   app_id                 :
-#   publisher              :
-# og_image                 : # Open Graph/Twitter default site image
-# # For specifying social profiles
-# # - https://developers.google.com/structured-data/customize/social-profiles
-# social:
-#   type                   : # Person or Organization (defaults to Person)
-#   name                   : # If the user or organization name differs from the site's name
-#   links: # An array of links to social media profiles
-
-# # Analytics
-# analytics:
-#   provider               : "google" # false (default), "google", "google-universal", "custom"
-#   google:
-#     tracking_id          :  UA-166298388-1
-#     anonymize_ip         : # true, false (default)
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :  UA-166298388-1
+    anonymize_ip         : # true, false (default)
 
 
 # # Site Author
 # author:
-#   name             : "LX"
+#   name             : "JS"
 #   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
 #   bio              : # "I am an **amazing** person."
-#   location         : "US"
+#   location         : # "US"
 #   email            :
 #   links:
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
-#       url: "mailto:luxu@luxu.win"
+#     #  url: "mailto:luxu@luxu.win"
 #     # - label: "Website"
 #     #   icon: "fas fa-fw fa-link"
 #     #   # url: "https://your-website.com"
