@@ -1,0 +1,9 @@
+---
+layout: post
+entries_layout: grid
+title: test with perm link
+excerpt: "something here"    
+permalink: test-perm-link
+---
+
+test with perm link
