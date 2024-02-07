@@ -259,7 +259,7 @@ defaults:
       related: true
 
 collections:
-  posts_no_date:
+  pages:
     output: true
     permalink: /:collection/:path/
 
