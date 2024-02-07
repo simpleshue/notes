@@ -37,7 +37,18 @@ repository               : simpleshue/notes
 # # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
+# Conversion
+markdown: kramdown
+# Markdown Processing
 kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
   syntax_highlighter_opts:
     disable : true
 
@@ -173,25 +184,6 @@ analytics:
 # encoding: "utf-8"
 # markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# # Conversion
-# markdown: kramdown
-# highlighter: rouge
-# lsi: false
-# excerpt_separator: "\n\n"
-# incremental: false
-
-
-# # Markdown Processing
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   smart_quotes: lsquo,rsquo,ldquo,rdquo
-#   enable_coderay: false
 
 
 # # Sass/SCSS
