@@ -22,29 +22,5 @@ remote_theme: just-the-docs
 
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Notes"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "of random thoughts"
-description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : simpleshue/notes
-# # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-
-# Conversion
-markdown: kramdown
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  syntax_highlighter_opts:
-    disable : true
+nav_enabled: true
+color_scheme: dark
