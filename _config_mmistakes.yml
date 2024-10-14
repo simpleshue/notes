@@ -18,6 +18,8 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 
+# remote_theme             : "mmistakes/minimal-mistakes"
+# minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 remote_theme: just-the-docs
 
 
@@ -48,3 +50,45 @@ kramdown:
   enable_coderay: false
   syntax_highlighter_opts:
     disable : true
+
+# comments:
+# Comments are added via [Utterances](https://medium.com/@argszero.reg/building-a-math-blog-with-github-pages-jekyll-mathjax-and-utterances-a-diy-guide-f07727d33716)
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
+
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :  UA-166298388-1
+    anonymize_ip         : # true, false (default)
+
+paginate: 8
+paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts_with_comments
+    values:
+      layout: single
+      entries_layout: grid
+      comments: true
+      related: true
+
+# export certain folders (e.g. 'pages' means files under _pages will be exported.)
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
